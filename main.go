@@ -1,7 +1,10 @@
 package main
 
-import "github.com/zengjiangbin/hall/core"
+import (
+	"github.com/zengjiangbin/driver"
+	"github.com/zengjiangbin/hall/core"
+)
 
 func main() {
-	core.NewService()
+	driver.Drive(core.NewService())
 }
