@@ -14,7 +14,7 @@ func (h *hallCore) Init() {}
 
 func (h *hallCore) Start() {}
 
-func (h *hallCore) Name() service.ServiceName {
+func (h *hallCore) Name() service.Name {
 	return service.HalLServiceName
 }
 
